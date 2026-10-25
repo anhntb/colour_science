@@ -1,9 +1,12 @@
 import streamlit as st
+from page_style import apply_page_style
 import matplotlib.pyplot as plt
 import colour
 import numpy as np
 import scipy.io
 import os
+
+apply_page_style()
 
 st.markdown("## 🖨️ Đặc tính hoá máy in nửa tông (Halftone)")
 st.markdown("""

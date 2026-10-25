@@ -1,8 +1,11 @@
 import streamlit as st
+from page_style import apply_page_style
 import colour
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+
+apply_page_style()
 
 st.markdown("## 📊 Tính giá trị 3 thành phần X, Y, Z")
 st.markdown("""

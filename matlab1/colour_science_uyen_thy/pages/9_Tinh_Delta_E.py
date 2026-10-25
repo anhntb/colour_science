@@ -1,9 +1,12 @@
 import streamlit as st
+from page_style import apply_page_style
 import numpy as np
 import colour
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import pandas as pd
+
+apply_page_style()
 
 st.markdown("## 📐 Tính ΔE – Color Difference (Độ lệch màu)")
 st.markdown("""

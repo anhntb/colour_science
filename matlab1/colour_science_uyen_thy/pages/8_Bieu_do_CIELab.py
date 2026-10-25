@@ -1,9 +1,12 @@
 import streamlit as st
+from page_style import apply_page_style
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from matplotlib.patches import FancyArrowPatch
 import numpy as np
 import colour
+
+apply_page_style()
 
 st.markdown("## 🎯 Biểu đồ CIELab – Phân tích chuyển dịch màu")
 st.markdown("""

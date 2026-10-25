@@ -74,6 +74,102 @@ def apply_sidebar_style():
         background: #dff4ff;
     }
 
+    /* Controls rendered by individual pages below the navigation. */
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p,
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h1,
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h2,
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h3,
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h4,
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h5,
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h6,
+    [data-testid="stSidebar"] [data-testid="stWidgetLabel"] p,
+    [data-testid="stSidebar"] label {
+        color: #dce8f7 !important;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] strong,
+    [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] b {
+        color: #ffffff !important;
+    }
+
+    [data-testid="stSidebar"] [data-baseweb="input"],
+    [data-testid="stSidebar"] [data-baseweb="select"] > div,
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(190, 220, 245, 0.52);
+        color: #f2f7ff !important;
+    }
+
+    [data-testid="stSidebar"] input,
+    [data-testid="stSidebar"] textarea {
+        color: #f2f7ff !important;
+        caret-color: #ffffff;
+    }
+
+    [data-testid="stSidebar"] input::placeholder,
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzoneInstructions"] small {
+        color: #c2d2e4 !important;
+        opacity: 1;
+    }
+
+    [data-testid="stSidebar"] [data-baseweb="select"] span,
+    [data-testid="stSidebar"] [data-baseweb="select"] svg {
+        color: #f2f7ff !important;
+        fill: #f2f7ff;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stCheckbox"] label,
+    [data-testid="stSidebar"] [data-testid="stCheckbox"] label span,
+    [data-testid="stSidebar"] [data-testid="stCheckbox"] label p {
+        color: #dce8f7 !important;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stSlider"] [role="slider"] {
+        background: #9bc9f2;
+        border-color: #e7f4ff;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stSlider"] [data-baseweb="slider"] > div > div {
+        background: #5f9ed0;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] svg {
+        fill: #b9d9f3;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stFileUploader"] {
+        color: #dce8f7 !important;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stFileUploader"] section,
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
+        background: rgba(255, 255, 255, 0.09) !important;
+        border: 1px dashed rgba(190, 220, 245, 0.55) !important;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] *,
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzoneInstructions"] *,
+    [data-testid="stSidebar"] [data-testid="stFileUploaderFile"] * {
+        color: #dce8f7 !important;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button {
+        background: #315f8f !important;
+        border: 1px solid #80b5df !important;
+        border-radius: 6px !important;
+        color: #ffffff !important;
+        font-weight: 600;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] button:hover {
+        background: #3d73a7 !important;
+    }
+
+    [data-testid="stSidebar"] [data-testid="stFileUploaderFile"] {
+        background: rgba(255, 255, 255, 0.08) !important;
+        border-color: rgba(190, 220, 245, 0.42) !important;
+    }
+
     [data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button {
         color: #aac4e8;
     }

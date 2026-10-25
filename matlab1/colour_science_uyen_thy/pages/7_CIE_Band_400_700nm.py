@@ -1,7 +1,10 @@
 import streamlit as st
+from page_style import apply_page_style
 import matplotlib.pyplot as plt
 import numpy as np
 import colour
+
+apply_page_style()
 
 st.markdown("## 🌈 Biểu đồ CIE dạng Band (400–700 nm)")
 st.markdown("""

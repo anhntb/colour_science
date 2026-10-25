@@ -1,7 +1,10 @@
 import streamlit as st
+from page_style import apply_page_style
 import matplotlib.pyplot as plt
 import colour
 import numpy as np
+
+apply_page_style()
 
 st.markdown("## 👁️ Biểu đồ CIE 1931 Chromaticity Diagram")
 st.markdown("""
