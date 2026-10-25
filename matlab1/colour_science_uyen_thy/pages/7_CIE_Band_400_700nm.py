@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import colour
 
-st.set_page_config(page_title="CIE Band 400–700 nm", page_icon="🌈", layout="centered")
-
 st.markdown("## 🌈 Biểu đồ CIE dạng Band (400–700 nm)")
 st.markdown("""
 Biểu đồ CIE **dạng dải màu** (band) hiển thị màu sắc của từng bước sóng ánh sáng

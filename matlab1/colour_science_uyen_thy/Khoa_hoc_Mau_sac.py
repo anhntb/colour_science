@@ -1,12 +1,6 @@
 import streamlit as st
 import os
 
-st.set_page_config(
-    page_title="Khoa học Màu sắc - HCMUTE",
-    page_icon="🎨",
-    layout="wide"
-)
-
 # ── Header: logo + tên trường ──────────────────────────────────────────────────
 col_logo, col_info = st.columns([1, 4])
 
@@ -46,9 +40,13 @@ with c2:
         <h3 style='margin:0 0 12px 0; color:#ffffff;'>Thông tin sinh viên</h3>
         <p style='margin:6px 0; font-size:16px; color:#e0e8ff;'>
             <b style="color:#7ec8ff;">Họ tên:</b> Nguyễn Lê Uyên Thy
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <b style="color:#7ec8ff;">MSSV:</b> 24158137
         </p>
         <p style='margin:6px 0; font-size:16px; color:#e0e8ff;'>
-            <b style="color:#7ec8ff;">MSSV:</b> 24158137
+            <b style="color:#7ec8ff;">Họ tên:</b> Nguyễn Bảo Song
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <b style="color:#7ec8ff;">MSSV:</b> 24158119
         </p>
         <p style='margin:6px 0; font-size:16px; color:#e0e8ff;'>
             <b style="color:#7ec8ff;">Ngành:</b> Công nghệ Kỹ thuật In
@@ -94,6 +92,7 @@ for i, (icon, title, desc) in enumerate(features):
 st.markdown("---")
 st.markdown(
     "<p style='text-align:center; color:#555; font-size:12px'>"
-    "© 2024 Nguyễn Lê Uyên Thy – HCMUTE | Môn: Khoa học Màu sắc</p>",
+    "© 2024 Nguyễn Lê Uyên Thy &amp; Nguyễn Bảo Song – HCMUTE | "
+    "Môn: Khoa học Màu sắc</p>",
     unsafe_allow_html=True,
 )

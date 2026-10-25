@@ -5,8 +5,6 @@ from matplotlib.patches import FancyArrowPatch
 import numpy as np
 import colour
 
-st.set_page_config(page_title="Biểu đồ CIELab", page_icon="🎯", layout="wide")
-
 st.markdown("## 🎯 Biểu đồ CIELab – Phân tích chuyển dịch màu")
 st.markdown("""
 Nhập hai màu **Lab1** và **Lab2**, chương trình sẽ:

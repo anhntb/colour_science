@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import pandas as pd
 
-st.set_page_config(page_title="Tính ΔE Màu sắc", page_icon="📐", layout="wide")
-
 st.markdown("## 📐 Tính ΔE – Color Difference (Độ lệch màu)")
 st.markdown("""
 Công cụ tính **độ lệch màu ΔE** giữa màu **tham chiếu** (Reference) và màu **mẫu** (Sample)

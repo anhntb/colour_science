@@ -4,8 +4,6 @@ import colour
 import numpy as np
 import pandas as pd
 
-st.set_page_config(page_title="Gamut Máy In", page_icon="🖨️", layout="wide")
-
 st.markdown("## 🖨️ Gamut màu của máy in")
 st.markdown("""
 Upload file CSV chứa dữ liệu đo màu của máy in (định dạng CIELab).  

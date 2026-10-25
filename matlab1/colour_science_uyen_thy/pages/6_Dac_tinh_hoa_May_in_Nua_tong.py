@@ -5,8 +5,6 @@ import numpy as np
 import scipy.io
 import os
 
-st.set_page_config(page_title="Đặc tính hoá Máy in Nửa tông", page_icon="🖨️", layout="wide")
-
 st.markdown("## 🖨️ Đặc tính hoá máy in nửa tông (Halftone)")
 st.markdown("""
 Phân tích phổ phản xạ của các mẫu in nửa tông vàng (**Yellow**) và tím (**Magenta**)

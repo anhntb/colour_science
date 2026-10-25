@@ -2,8 +2,6 @@ import streamlit as st
 import numpy as np
 import colour
 
-st.set_page_config(page_title="Chuyển đổi Không gian Màu", page_icon="🔄", layout="wide")
-
 st.markdown("## 🔄 Chuyển đổi Không gian Màu")
 st.markdown("Chuyển đổi hai chiều giữa **sRGB ↔ XYZ** sử dụng tiêu chuẩn CIE 1931.")
 st.markdown("---")

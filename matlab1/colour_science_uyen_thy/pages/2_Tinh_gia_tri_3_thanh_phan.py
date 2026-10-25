@@ -4,8 +4,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Tính giá trị 3 thành phần", page_icon="📊", layout="wide")
-
 st.markdown("## 📊 Tính giá trị 3 thành phần X, Y, Z")
 st.markdown("""
 Upload file phổ đo dạng CSV (2 cột: **bước sóng** và **phổ phản xạ**).  

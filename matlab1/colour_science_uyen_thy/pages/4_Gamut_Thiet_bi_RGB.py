@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import colour
 import numpy as np
 
-st.set_page_config(page_title="Gamut Thiết bị RGB", page_icon="🖥️", layout="centered")
-
 st.markdown("## 🖥️ Gamut màu của thiết bị RGB")
 st.markdown("""
 Biểu đồ này thể hiện **gamut màu sRGB** — vùng màu mà màn hình máy tính tiêu chuẩn

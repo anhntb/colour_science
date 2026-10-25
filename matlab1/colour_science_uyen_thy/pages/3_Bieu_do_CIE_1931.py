@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import colour
 import numpy as np
 
-st.set_page_config(page_title="Biểu đồ CIE 1931", page_icon="👁️", layout="centered")
-
 st.markdown("## 👁️ Biểu đồ CIE 1931 Chromaticity Diagram")
 st.markdown("""
 Biểu đồ chromaticity **CIE 1931** hình móng ngựa biểu diễn toàn bộ không gian màu
