@@ -66,7 +66,7 @@ st.markdown("---")
 st.markdown("### 📋 Nội dung ứng dụng")
 
 features = [
-    ("1️⃣", "Chuyển đổi Không gian Màu",    "Chuyển đổi hai chiều giữa sRGB ↔ XYZ"),
+    ("1️⃣", "Chuyển đổi Không gian Màu",    "Chuyển đổi giữa các không gian màu RGB, Lab, XYZ, LCH, HSV, HSL"),
     ("2️⃣", "Tính Giá trị 3 Thành phần",     "Tính X, Y, Z từ file phổ đo CSV với CIE 1931 D65"),
     ("3️⃣", "Biểu đồ CIE 1931",              "Vẽ biểu đồ chromaticity diagram hình móng ngựa"),
     ("4️⃣", "Gamut Thiết bị RGB",             "Vẽ gamut màu của thiết bị RGB trên biểu đồ CIE"),
